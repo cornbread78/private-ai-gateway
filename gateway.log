@@ -1,0 +1,57 @@
+=== Gateway Active on http://127.0.0.1:8080 ===
+[Gateway Check] ONLINE (Service available)
+127.0.0.1 - - [02/Oct/2026 13:44:16] "POST /v1/chat/completions HTTP/1.1" 200 -
+[Gateway Check] ONLINE (Service available)
+127.0.0.1 - - [02/Oct/2026 13:44:53] "POST /v1/chat/completions HTTP/1.1" 200 -
+[Gateway Check] ONLINE (Service available)
+127.0.0.1 - - [02/Oct/2026 13:46:13] "POST /v1/chat/completions HTTP/1.1" 200 -
+[Gateway Check] ONLINE (Service available)
+127.0.0.1 - - [02/Oct/2026 13:52:59] "POST /chat HTTP/1.1" 200 -
+[Gateway Check] ONLINE (Service available)
+127.0.0.1 - - [02/Oct/2026 13:53:27] "POST /chat HTTP/1.1" 200 -
+[Gateway Check] ONLINE (Service available)
+127.0.0.1 - - [02/Oct/2026 13:54:06] "POST /chat HTTP/1.1" 200 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 26 (char 25)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:54:06] "POST /chat HTTP/1.1" 502 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 19 (char 18)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:54:06] "POST /chat HTTP/1.1" 502 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 22 (char 21)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:54:06] "POST /chat HTTP/1.1" 502 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 19 (char 18)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:54:06] "POST /chat HTTP/1.1" 502 -
+[Gateway Check] ONLINE (Service available)
+127.0.0.1 - - [02/Oct/2026 13:54:41] "POST /chat HTTP/1.1" 200 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 19 (char 18)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:54:41] "POST /chat HTTP/1.1" 502 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 19 (char 18)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:54:41] "POST /chat HTTP/1.1" 502 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 19 (char 18)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:54:41] "POST /chat HTTP/1.1" 502 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 19 (char 18)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:54:41] "POST /chat HTTP/1.1" 502 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 19 (char 18)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:54:41] "POST /chat HTTP/1.1" 502 -
+[Gateway Check] ONLINE (Service available)
+127.0.0.1 - - [02/Oct/2026 13:55:27] "POST /chat HTTP/1.1" 200 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 19 (char 18)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:55:27] "POST /chat HTTP/1.1" 502 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 22 (char 21)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:55:27] "POST /chat HTTP/1.1" 502 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 20 (char 19)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:55:27] "POST /chat HTTP/1.1" 502 -
+[Gateway Error] Expecting ',' delimiter: line 1 column 19 (char 18)
+[Proxy Error] HTTP Error 400: Bad Request
+127.0.0.1 - - [02/Oct/2026 13:55:27] "POST /chat HTTP/1.1" 502 -
+[Gateway Check] ONLINE (Service available)

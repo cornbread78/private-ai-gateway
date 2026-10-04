@@ -1,0 +1,6 @@
+#!/bin/sh
+if [ "$1" = "-V" ]; then
+    echo "OpenSSH_9.0p1, OpenSSL 3.0.0"
+    exit 0
+fi
+exit 0

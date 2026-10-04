@@ -1,0 +1,6 @@
+type: service
+name: private-ai-gateway
+image: python:3.11
+port: 8080
+commands:
+  - python3 -m http.server 8080

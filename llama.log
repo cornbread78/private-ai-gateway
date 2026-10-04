@@ -1,0 +1,153 @@
+0.00.003.229 I srv  llama_server: initializing ...
+0.00.004.512 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.004.840 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.006.419 I srv    load_model: loading model './models/model.gguf'
+0.00.335.475 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.02.054.545 I cmn          init: llama threadpool init, n_threads = 8
+0.02.373.028 I srv    load_model: initializing, n_slots = 4, n_ctx_slot = 131072, kv_unified = 'true'
+0.02.380.762 I srv  llama_server: model loaded
+0.02.380.768 I srv  llama_server: listening on http://127.0.0.1:8081
+0.54.718.431 I slot get_availabl: id  3 | task -1 | selected slot by LRU, t_last = -1
+0.54.719.117 I slot launch_slot_: id  3 | task 0 | processing task, is_child = 0
+0.56.718.595 W srv          stop: cancel task, id_task = 0
+0.56.729.687 I slot      release: id  3 | task 0 | stop processing: n_tokens = 195, truncated = 0
+3.49.271.550 I slot get_availabl: id  3 | task -1 | selected slot by LCP similarity, f_sim_best = 0.964 (> 0.100 thold), f_keep = 0.677
+3.49.272.425 I slot launch_slot_: id  3 | task 63 | processing task, is_child = 0
+3.51.271.678 W srv          stop: cancel task, id_task = 63
+3.51.285.623 I slot      release: id  3 | task 63 | stop processing: n_tokens = 228, truncated = 0
+4.43.210.244 I slot get_availabl: id  3 | task -1 | selected slot by LCP similarity, f_sim_best = 0.937 (> 0.100 thold), f_keep = 0.588
+4.43.210.621 I slot launch_slot_: id  3 | task 157 | processing task, is_child = 0
+4.45.210.534 W srv          stop: cancel task, id_task = 157
+4.45.241.715 I slot      release: id  3 | task 157 | stop processing: n_tokens = 229, truncated = 0
+4.45.401.015 I slot get_availabl: id  3 | task -1 | selected slot by LCP similarity, f_sim_best = 0.921 (> 0.100 thold), f_keep = 0.611
+4.45.401.195 I slot launch_slot_: id  3 | task 246 | processing task, is_child = 0
+4.47.402.549 W srv          stop: cancel task, id_task = 246
+4.47.418.105 I slot      release: id  3 | task 246 | stop processing: n_tokens = 212, truncated = 0
+4.47.594.741 I slot get_availabl: id  3 | task -1 | selected slot by LCP similarity, f_sim_best = 0.190 (> 0.100 thold), f_keep = 0.142
+4.47.597.050 I slot launch_slot_: id  3 | task 309 | processing task, is_child = 0
+4.49.595.042 W srv          stop: cancel task, id_task = 309
+4.49.645.721 I slot      release: id  3 | task 309 | stop processing: n_tokens = 214, truncated = 0
+4.49.799.204 I slot get_availabl: id  3 | task -1 | selected slot by LCP similarity, f_sim_best = 0.195 (> 0.100 thold), f_keep = 0.140
+4.49.804.262 I slot launch_slot_: id  3 | task 368 | processing task, is_child = 0
+4.51.799.741 W srv          stop: cancel task, id_task = 368
+4.51.819.621 I slot      release: id  3 | task 368 | stop processing: n_tokens = 208, truncated = 0
+8.24.183.659 I slot get_availabl: id  2 | task -1 | selected slot by LRU, t_last = -1
+8.24.183.797 I slot launch_slot_: id  2 | task 425 | processing task, is_child = 0
+8.26.183.968 W srv          stop: cancel task, id_task = 425
+8.26.196.095 I slot      release: id  2 | task 425 | stop processing: n_tokens = 187, truncated = 0
+9.26.593.680 W srv    operator(): got exception: {"error":{"code":400,"message":"'messages' is required","type":"invalid_request_error"}}
+771.27.464.910 I slot get_availabl: id  1 | task -1 | selected slot by LRU, t_last = -1
+771.27.466.665 I slot launch_slot_: id  1 | task 503 | processing task, is_child = 0
+771.32.063.108 I slot print_timing: id  1 | task 503 | n_gen =    129, tg =  42.40 t/s, tg_3s =  42.73 t/s
+771.34.692.725 I slot print_timing: id  1 | task 503 | prompt eval time =    1560.66 ms /   108 tokens (   14.45 ms per token,    69.20 tokens per second)
+771.34.692.754 I slot print_timing: id  1 | task 503 |        eval time =    5648.32 ms /   240 tokens (   23.63 ms per token,    42.31 tokens per second)
+771.34.692.755 I slot print_timing: id  1 | task 503 |       total time =    7208.98 ms /   348 tokens
+771.34.692.757 I slot print_timing: id  1 | task 503 |    graphs reused =        713
+771.34.693.137 I slot      release: id  1 | task 503 | stop processing: n_tokens = 347, truncated = 0
+772.00.777.554 I slot get_availabl: id  1 | task -1 | selected slot by LCP similarity, f_sim_best = 0.242 (> 0.100 thold), f_keep = 0.089
+772.00.784.831 I slot launch_slot_: id  1 | task 744 | processing task, is_child = 0
+772.04.136.509 I slot print_timing: id  1 | task 744 | n_gen =    144, tg =  47.55 t/s, tg_3s =  47.88 t/s
+772.07.143.151 I slot print_timing: id  1 | task 744 | n_gen =    276, tg =  45.73 t/s, tg_3s =  43.90 t/s
+772.10.153.623 I slot print_timing: id  1 | task 744 | n_gen =    406, tg =  44.88 t/s, tg_3s =  43.18 t/s
+772.12.348.811 I slot print_timing: id  1 | task 744 | prompt eval time =     343.59 ms /    97 tokens (    3.54 ms per token,   282.31 tokens per second)
+772.12.348.827 I slot print_timing: id  1 | task 744 |        eval time =   11219.66 ms /   500 tokens (   22.48 ms per token,    44.48 tokens per second)
+772.12.348.834 I slot print_timing: id  1 | task 744 |       total time =   11563.25 ms /   597 tokens
+772.12.348.836 I slot print_timing: id  1 | task 744 |    graphs reused =       1209
+772.12.348.892 I slot      release: id  1 | task 744 | stop processing: n_tokens = 627, truncated = 0
+773.24.956.304 I slot get_availabl: id  1 | task -1 | selected slot by LCP similarity, f_sim_best = 0.113 (> 0.100 thold), f_keep = 0.049
+773.24.969.384 I slot launch_slot_: id  1 | task 1245 | processing task, is_child = 0
+773.28.901.755 I slot print_timing: id  1 | task 1245 | n_gen =    134, tg =  44.10 t/s, tg_3s =  44.43 t/s
+773.31.906.040 I slot print_timing: id  1 | task 1245 | n_gen =    269, tg =  44.52 t/s, tg_3s =  44.94 t/s
+773.32.262.741 I slot print_timing: id  1 | task 1245 | prompt eval time =     915.80 ms /   243 tokens (    3.77 ms per token,   265.34 tokens per second)
+773.32.262.760 I slot print_timing: id  1 | task 1245 |        eval time =    6376.74 ms /   285 tokens (   22.45 ms per token,    44.54 tokens per second)
+773.32.262.761 I slot print_timing: id  1 | task 1245 |       total time =    7292.54 ms /   528 tokens
+773.32.262.762 I slot print_timing: id  1 | task 1245 |    graphs reused =       1491
+773.32.263.136 I slot      release: id  1 | task 1245 | stop processing: n_tokens = 558, truncated = 0
+780.00.214.402 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+780.00.214.580 I slot launch_slot_: id  0 | task 1531 | processing task, is_child = 0
+780.04.551.382 I slot print_timing: id  0 | task 1531 | n_gen =    117, tg =  38.52 t/s, tg_3s =  38.85 t/s
+780.07.570.003 I slot print_timing: id  0 | task 1531 | n_gen =    223, tg =  36.82 t/s, tg_3s =  35.12 t/s
+780.10.579.233 I slot print_timing: id  0 | task 1531 | n_gen =    347, tg =  38.28 t/s, tg_3s =  41.21 t/s
+780.13.584.403 I slot print_timing: id  0 | task 1531 | n_gen =    461, tg =  38.19 t/s, tg_3s =  37.93 t/s
+780.16.611.961 I slot print_timing: id  0 | task 1531 | n_gen =    568, tg =  37.62 t/s, tg_3s =  35.34 t/s
+780.18.071.539 I slot print_timing: id  0 | task 1531 | prompt eval time =    1307.97 ms /   340 tokens (    3.85 ms per token,   259.95 tokens per second)
+780.18.071.550 I slot print_timing: id  0 | task 1531 |        eval time =   16531.59 ms /   618 tokens (   26.79 ms per token,    37.32 tokens per second)
+780.18.071.552 I slot print_timing: id  0 | task 1531 |       total time =   17839.56 ms /   958 tokens
+780.18.071.552 I slot print_timing: id  0 | task 1531 |    graphs reused =       2105
+780.18.071.780 I slot      release: id  0 | task 1531 | stop processing: n_tokens = 957, truncated = 0
+780.18.376.099 I slot get_availabl: id  3 | task -1 | selected slot by LRU, t_last = 3073042236
+780.18.379.179 I slot launch_slot_: id  3 | task 2150 | processing task, is_child = 0
+780.25.198.790 I slot print_timing: id  3 | task 2150 | n_gen =    120, tg =  39.36 t/s, tg_3s =  39.70 t/s
+780.28.220.187 I slot print_timing: id  3 | task 2150 | n_gen =    228, tg =  37.56 t/s, tg_3s =  35.75 t/s
+780.31.358.077 I slot print_timing: id  3 | task 2150 | n_gen =    299, tg =  32.45 t/s, tg_3s =  22.63 t/s
+780.34.371.018 I slot print_timing: id  3 | task 2150 | n_gen =    319, tg =  26.08 t/s, tg_3s =   6.64 t/s
+780.37.382.700 I slot print_timing: id  3 | task 2150 | n_gen =    385, tg =  25.25 t/s, tg_3s =  21.91 t/s
+780.40.429.444 I slot print_timing: id  3 | task 2150 | n_gen =    468, tg =  25.58 t/s, tg_3s =  27.24 t/s
+780.43.449.646 I slot print_timing: id  3 | task 2150 | n_gen =    565, tg =  26.51 t/s, tg_3s =  32.12 t/s
+780.46.466.594 I slot print_timing: id  3 | task 2150 | n_gen =    658, tg =  27.05 t/s, tg_3s =  30.83 t/s
+780.46.522.125 I slot print_timing: id  3 | task 2150 | prompt eval time =    3789.15 ms /   681 tokens (    5.56 ms per token,   179.72 tokens per second)
+780.46.522.141 I slot print_timing: id  3 | task 2150 |        eval time =   24346.34 ms /   660 tokens (   36.94 ms per token,    27.07 tokens per second)
+780.46.522.142 I slot print_timing: id  3 | task 2150 |       total time =   28135.49 ms /  1341 tokens
+780.46.522.143 I slot print_timing: id  3 | task 2150 |    graphs reused =       2760
+780.46.522.221 I slot      release: id  3 | task 2150 | stop processing: n_tokens = 1340, truncated = 0
+780.46.665.532 I slot get_availabl: id  2 | task -1 | selected slot by LRU, t_last = 3287418711
+780.46.665.773 I slot launch_slot_: id  2 | task 2811 | processing task, is_child = 0
+780.55.947.726 I slot print_timing: id  2 | task 2811 | n_gen =    100, tg =  29.53 t/s, tg_3s =  29.83 t/s
+780.58.967.217 I slot print_timing: id  2 | task 2811 | n_gen =    186, tg =  29.03 t/s, tg_3s =  28.48 t/s
+781.01.986.465 I slot print_timing: id  2 | task 2811 | n_gen =    269, tg =  28.54 t/s, tg_3s =  27.49 t/s
+781.05.007.164 I slot print_timing: id  2 | task 2811 | n_gen =    341, tg =  27.39 t/s, tg_3s =  23.84 t/s
+781.08.008.854 I slot print_timing: id  2 | task 2811 | n_gen =    414, tg =  26.79 t/s, tg_3s =  24.32 t/s
+781.11.041.362 I slot print_timing: id  2 | task 2811 | n_gen =    487, tg =  26.35 t/s, tg_3s =  24.07 t/s
+781.14.071.181 I slot print_timing: id  2 | task 2811 | n_gen =    548, tg =  25.47 t/s, tg_3s =  20.13 t/s
+781.17.075.712 I slot print_timing: id  2 | task 2811 | n_gen =    626, tg =  25.53 t/s, tg_3s =  25.96 t/s
+781.20.272.120 I slot print_timing: id  2 | task 2811 | n_gen =    675, tg =  24.35 t/s, tg_3s =  15.33 t/s
+781.23.376.701 I slot print_timing: id  2 | task 2811 | n_gen =    696, tg =  22.58 t/s, tg_3s =   6.76 t/s
+781.24.700.881 I slot print_timing: id  2 | task 2811 | prompt eval time =    5913.80 ms /   837 tokens (    7.07 ms per token,   141.53 tokens per second)
+781.24.700.896 I slot print_timing: id  2 | task 2811 |        eval time =   32105.67 ms /   704 tokens (   45.67 ms per token,    21.90 tokens per second)
+781.24.700.898 I slot print_timing: id  2 | task 2811 |       total time =   38019.47 ms /  1541 tokens
+781.24.700.899 I slot print_timing: id  2 | task 2811 |    graphs reused =       3459
+781.24.701.075 I slot      release: id  2 | task 2811 | stop processing: n_tokens = 1540, truncated = 0
+781.24.924.019 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 26: syntax error while parsing object - invalid literal; last read: '\"GATEWAY_URL=\"h'; expected '}'","type":"invalid_request_error"}}
+781.25.008.454 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 19: syntax error while parsing object - invalid literal; last read: '\"NAME=\"R'; expected '}'","type":"invalid_request_error"}}
+781.25.112.816 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 22: syntax error while parsing object - invalid literal; last read: '\"if [ -n \"$'; expected '}'","type":"invalid_request_error"}}
+781.25.213.409 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 19: syntax error while parsing object - invalid literal; last read: '\"NAME=\"$'; expected '}'","type":"invalid_request_error"}}
+781.25.483.042 I slot get_availabl: id  1 | task -1 | selected slot by LRU, t_last = 24411868153
+781.25.483.387 I slot launch_slot_: id  1 | task 3516 | processing task, is_child = 0
+781.55.524.514 I slot print_timing: id  1 | task 3516 | n_gen =    102, tg =  33.61 t/s, tg_3s =  33.94 t/s
+781.58.538.206 I slot print_timing: id  1 | task 3516 | n_gen =    204, tg =  33.73 t/s, tg_3s =  33.85 t/s
+782.00.008.854 I slot print_timing: id  1 | task 3516 | prompt eval time =   26992.63 ms /  1184 tokens (   22.80 ms per token,    43.86 tokens per second)
+782.00.008.937 I slot print_timing: id  1 | task 3516 |        eval time =    7489.22 ms /   254 tokens (   29.60 ms per token,    33.78 tokens per second)
+782.00.008.995 I slot print_timing: id  1 | task 3516 |       total time =   34481.86 ms /  1438 tokens
+782.00.009.051 I slot print_timing: id  1 | task 3516 |    graphs reused =       3710
+782.00.009.513 I slot      release: id  1 | task 3516 | stop processing: n_tokens = 1437, truncated = 0
+782.00.092.065 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 19: syntax error while parsing object - invalid literal; last read: '\"echo \"='; expected '}'","type":"invalid_request_error"}}
+782.00.215.909 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 19: syntax error while parsing object - invalid literal; last read: '\"echo \"='; expected '}'","type":"invalid_request_error"}}
+782.00.269.882 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 19: syntax error while parsing object - invalid literal; last read: '\"echo \"C'; expected '}'","type":"invalid_request_error"}}
+782.00.324.555 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 19: syntax error while parsing object - invalid literal; last read: '\"echo \"C'; expected '}'","type":"invalid_request_error"}}
+782.00.380.600 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 19: syntax error while parsing object - invalid literal; last read: '\"echo \"='; expected '}'","type":"invalid_request_error"}}
+782.00.478.610 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 24817676795
+782.00.478.826 I slot launch_slot_: id  0 | task 3771 | processing task, is_child = 0
+782.12.616.018 I slot print_timing: id  0 | task 3771 | n_gen =    100, tg =  22.25 t/s, tg_3s =  22.47 t/s
+782.15.643.853 I slot print_timing: id  0 | task 3771 | n_gen =    175, tg =  23.27 t/s, tg_3s =  24.77 t/s
+782.18.689.533 I slot print_timing: id  0 | task 3771 | n_gen =    249, tg =  23.57 t/s, tg_3s =  24.30 t/s
+782.21.712.433 I slot print_timing: id  0 | task 3771 | n_gen =    331, tg =  24.36 t/s, tg_3s =  27.13 t/s
+782.24.725.908 I slot print_timing: id  0 | task 3771 | n_gen =    411, tg =  24.76 t/s, tg_3s =  26.55 t/s
+782.27.735.765 I slot print_timing: id  0 | task 3771 | n_gen =    489, tg =  24.94 t/s, tg_3s =  25.91 t/s
+782.30.748.146 I slot print_timing: id  0 | task 3771 | n_gen =    565, tg =  24.98 t/s, tg_3s =  25.23 t/s
+782.33.781.558 I slot print_timing: id  0 | task 3771 | n_gen =    641, tg =  24.98 t/s, tg_3s =  25.05 t/s
+782.36.808.115 I slot print_timing: id  0 | task 3771 | n_gen =    710, tg =  24.75 t/s, tg_3s =  22.80 t/s
+782.39.838.228 I slot print_timing: id  0 | task 3771 | n_gen =    785, tg =  24.75 t/s, tg_3s =  24.75 t/s
+782.42.879.376 I slot print_timing: id  0 | task 3771 | n_gen =    847, tg =  24.37 t/s, tg_3s =  20.39 t/s
+782.45.935.424 I slot print_timing: id  0 | task 3771 | n_gen =    887, tg =  23.46 t/s, tg_3s =  13.09 t/s
+782.46.101.600 I slot print_timing: id  0 | task 3771 | prompt eval time =    7673.57 ms /  1048 tokens (    7.32 ms per token,   136.57 tokens per second)
+782.46.101.614 I slot print_timing: id  0 | task 3771 |        eval time =   37935.72 ms /   889 tokens (   42.72 ms per token,    23.41 tokens per second)
+782.46.101.615 I slot print_timing: id  0 | task 3771 |       total time =   45609.29 ms /  1937 tokens
+782.46.101.617 I slot print_timing: id  0 | task 3771 |    graphs reused =       4594
+782.46.101.691 I slot      release: id  0 | task 3771 | stop processing: n_tokens = 1936, truncated = 0
+782.46.291.462 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 20: syntax error while parsing object - unexpected string literal; expected '}'","type":"invalid_request_error"}}
+782.46.383.336 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 22: syntax error while parsing object - invalid literal; last read: '\"read -p \"Y'; expected '}'","type":"invalid_request_error"}}
+782.46.468.781 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 20: syntax error while parsing object - invalid literal; last read: '\"if [[ \"$'; expected '}'","type":"invalid_request_error"}}
+782.46.552.623 W srv    operator(): got exception: {"error":{"code":400,"message":"[json.exception.parse_error.101] parse error at line 1, column 19: syntax error while parsing object - invalid literal; last read: '\"echo \"E'; expected '}'","type":"invalid_request_error"}}
+782.46.702.571 I slot get_availabl: id  3 | task -1 | selected slot by LRU, t_last = 24846127228
+782.46.702.906 I slot launch_slot_: id  3 | task 4661 | processing task, is_child = 0
+783.02.983.262 I slot print_timing: id  3 | task 4661 | n_gen =    100, tg =  30.60 t/s, tg_3s =  30.91 t/s
