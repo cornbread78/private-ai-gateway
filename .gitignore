@@ -1,3 +1,13 @@
 models/
 *.gguf
 llama.cpp/
+
+# Runtime logs & databases
+*.log
+*.db
+__pycache__/
+*.pyc
+
+# Mis-pasted shell artifacts
+-H
+-d
