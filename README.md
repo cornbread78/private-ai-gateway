@@ -89,3 +89,23 @@ Execute a chat session through the hardware-verified proxy wrapper:
 ## 📄 License
 
 Distributed under the Apache License 2.0. See `LICENSE` for details.
+
+
+---
+
+## 🔍 Observability & Privacy Audit
+
+To ensure maximum zero-leakage transparency, Rosie AI Gateway clearly segregates diagnostic logs from private memory workloads:
+
+* **What Gets Logged (, )**: Standard HTTP status codes (, ), request timestamps, routing latency, and container lifecycle events.
+* **What Stays Sealed in TEE**: All user prompt payloads, completion outputs, model weights, and TLS private session keys reside strictly inside protected hardware memory and are never written to disk or log files.
+
+---
+
+## 🔀 Upstream Comparison ()
+
+Rosie AI Gateway is an optimized, standalone evolution derived from :
+
+* **Hardware Attestation (ACI)**: Includes standalone proof outputs and hardware verification wrappers out of the box.
+* **Modularized Architecture**: Clear directory isolation between runtime engine (), attestation engine (), and docs ().
+* **Enhanced Fail-Closed Controls**: Automatic rejection of non-attested upstream models.
