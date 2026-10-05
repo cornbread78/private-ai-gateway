@@ -2,13 +2,12 @@ import unittest
 import os
 import sys
 
-# Append parent dir to path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 class TestRosieGateway(unittest.TestCase):
     def test_environment_setup(self):
         """Ensure core configuration files exist."""
-        self.assertTrue(os.path.exists('compose.yaml') or os.path.exists('../compose.yaml'))
+        self.assertTrue(os.path.exists('compose.yaml') or os.path.exists('rosie-core/compose.yaml'))
 
     def test_attestation_report_exists(self):
         """Ensure attestation engine proof output exists."""
