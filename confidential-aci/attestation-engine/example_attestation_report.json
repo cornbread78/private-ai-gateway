@@ -1,0 +1,12 @@
+{
+  "attestation_version": "1.0",
+  "tee_type": "AMD-SEV-SNP / Intel-TDX",
+  "measurement_hash": "a8f5c9e2b4d1a3f6e8c7b9a0d2f4e6a8c1b3d5e7f9a1b3c5d7e9f0a2b4c6d8e0",
+  "policy": {
+    "debug_allowed": false,
+    "single_socket_only": true
+  },
+  "signing_key_id": "aci-root-ca-0491",
+  "signature": "MEQCIH3xK...[verified-by-hardware-root]...",
+  "status": "ATTESTATION_SUCCESS"
+}
